@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+		<channel>
+			<title>Reparsed Starcitizenbase Blog</title>
+			<description>Reparsed Version</description>
+			<link>http://www.starcitizenbase.de/</link>
+			<lastBuildDate>Sat, 02 Nov 2019 01:46:17 +0000</lastBuildDate>
+			<generator>Star Citizen Wiki</generator>
+			<atom:link rel="self" type="application/rss+xml" href="http://scripts.star-citizen.wiki/cleanBaseFeed"/>
+			<language>de-de</language>
+			<managingEditor>info@star-citizen.wiki (Star Citizen Wiki)</managingEditor>
+			<item>
+				<title></title>
+				<link></link>
+				<guid></guid>
+				<pubDate></pubDate>
+				<description><![CDATA[]]></description>
+			</item>
+			<item>
+				<title></title>
+				<link></link>
+				<guid></guid>
+				<pubDate></pubDate>
+				<description><![CDATA[]]></description>
+			</item>
+			<item>
+				<title></title>
+				<link></link>
+				<guid></guid>
+				<pubDate></pubDate>
+				<description><![CDATA[]]></description>
+			</item>
+			<item>
+				<title></title>
+				<link></link>
+				<guid></guid>
+				<pubDate></pubDate>
+				<description><![CDATA[]]></description>
+			</item>
+			<item>
+				<title></title>
+				<link></link>
+				<guid></guid>
+				<pubDate></pubDate>
+				<description><![CDATA[]]></description>
+			</item>
+		</channel>
+	</rss>

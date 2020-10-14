@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  scripts.star-citizen.wiki:
+    image: scw-scripts:develop
+    container_name: scripts.star-citizen.wiki
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    expose:
+      - 80
+    networks:
+      - proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.scripts-star-citizen.rule=Host(`scripts.star-citizen.wiki`)"
+      - "traefik.http.routers.scripts-star-citizen.entryPoints=https"
+      #- "traefik.http.routers.scripts-star-citizen.middlewares=default@file,scripts-star-citizen-csp@file,remove-wordpress-headers@file"
+      - "traefik.http.routers.scripts-star-citizen.middlewares=default@file"
+      - "traefik.http.routers.scripts-star-citizen.tls=true"
+      - "traefik.http.routers.scripts-star-citizen.tls.options=default"
+
+networks:
+  proxy:
+    external: true
+
